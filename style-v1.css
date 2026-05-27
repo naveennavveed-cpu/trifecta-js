@@ -341,278 +341,8 @@
     width: 100%
 }
 
-@media (max-width: 1280px) {
-    .hero-inner[data-astro-cid-j7pv25f6] {
-        padding: 0 40px;
-        gap: 40px
-    }
 
-    .hero-card-wrap[data-astro-cid-j7pv25f6] {
-        width: clamp(320px, 34vw, 420px)
-    }
-}
 
-@media (max-width: 1024px) {
-    .hero-inner[data-astro-cid-j7pv25f6] {
-        padding: 0 32px;
-        gap: 28px
-    }
-
-    .hero-card-wrap[data-astro-cid-j7pv25f6] {
-        width: clamp(300px, 36vw, 380px)
-    }
-}
-
-@media (max-width: 768px) {
-    .hero[data-astro-cid-j7pv25f6] {
-        min-height: auto;
-        padding-top: 48px;
-        padding-bottom: 48px;
-        align-items: flex-start;
-        overflow-x: hidden
-    }
-
-    .hero-inner[data-astro-cid-j7pv25f6] {
-        flex-direction: column;
-        padding: 0 20px;
-        gap: 28px;
-        align-items: stretch
-    }
-
-    .hero-left[data-astro-cid-j7pv25f6] {
-        width: 100%;
-        max-width: 100%
-    }
-
-    .hero-sub[data-astro-cid-j7pv25f6] {
-        max-width: 100%
-    }
-
-    .hero-card-wrap[data-astro-cid-j7pv25f6] {
-        width: 100%;
-        min-height: 420px;
-        flex: none;
-        align-self: stretch
-    }
-
-    .hero-card-img-wrap[data-astro-cid-j7pv25f6] {
-        min-height: 200px
-    }
-
-    .hero-accent-line[data-astro-cid-j7pv25f6] {
-        display: none !important
-    }
-
-    .hero-ctas[data-astro-cid-j7pv25f6] {
-        flex-wrap: wrap;
-        gap: 12px
-    }
-}
-
-@media (max-width: 480px) {
-    /* Hero Section */
-    .hero[data-astro-cid-j7pv25f6] {
-        min-height: auto;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        align-items: flex-start
-    }
-
-    .hero-inner[data-astro-cid-j7pv25f6] {
-        flex-direction: column;
-        padding: 0 14px;
-        gap: 18px;
-        align-items: stretch
-    }
-
-    .hero-left[data-astro-cid-j7pv25f6] {
-        width: 100%;
-        max-width: 100%
-    }
-
-    .hero-headline[data-astro-cid-j7pv25f6] {
-        font-size: clamp(28px, 7vw, 40px);
-        line-height: 1.2;
-        margin-bottom: 12px
-    }
-
-    .hero-sub[data-astro-cid-j7pv25f6] {
-        font-size: 13px;
-        line-height: 1.6;
-        margin-top: 16px;
-        max-width: 100%
-    }
-
-    .hero-ctas[data-astro-cid-j7pv25f6] {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 20px;
-        width: 100%
-    }
-
-    .btn-primary[data-astro-cid-j7pv25f6],
-    .btn-secondary[data-astro-cid-j7pv25f6] {
-        width: 100%;
-        text-align: center;
-        font-size: 10px;
-        padding: 12px 20px;
-        min-height: 44px
-    }
-
-    /* Card Section */
-    .hero-card-wrap[data-astro-cid-j7pv25f6] {
-        width: 100%;
-        min-height: 360px;
-        max-height: 480px;
-        flex: none;
-        align-self: stretch
-    }
-
-    .hero-card-img-wrap[data-astro-cid-j7pv25f6] {
-        min-height: 160px;
-        flex: 3
-    }
-
-    .hero-card-content[data-astro-cid-j7pv25f6] {
-        flex: 2
-    }
-
-    .hero-card-body[data-astro-cid-j7pv25f6] {
-        padding: 16px 14px 0;
-        gap: 8px
-    }
-
-    .hero-card-company[data-astro-cid-j7pv25f6] {
-        font-size: 16px;
-        margin-bottom: 8px
-    }
-
-    .hero-card-quote[data-astro-cid-j7pv25f6] {
-        font-size: 11px;
-        line-height: 1.6;
-        padding-left: 10px
-    }
-
-    .hero-card-quote[data-astro-cid-j7pv25f6]:before {
-        width: 1.5px
-    }
-
-    .hero-card-footer[data-astro-cid-j7pv25f6] {
-        padding: 12px 14px 14px
-    }
-
-    .hero-card-badge[data-astro-cid-j7pv25f6] {
-        font-size: 8px;
-        padding: 4px 10px;
-        bottom: 10px;
-        left: 12px
-    }
-
-    .carousel-arrow[data-astro-cid-j7pv25f6] {
-        width: 32px;
-        height: 32px;
-        top: 10px;
-        right: 10px;
-        font-size: 14px
-    }
-
-    .carousel-dot[data-astro-cid-j7pv25f6] {
-        width: 5px;
-        height: 5px
-    }
-
-    /* Navigation */
-    nav[data-astro-cid-dmqpwcec] {
-        padding: 0 14px;
-        height: 56px
-    }
-
-    .nav-mega-panel[data-astro-cid-dmqpwcec] {
-        padding: 24px 14px 28px;
-        gap: 24px
-    }
-
-    .nav-links[data-astro-cid-dmqpwcec] {
-        gap: 28px
-    }
-
-    .nav-links[data-astro-cid-dmqpwcec] a[data-astro-cid-dmqpwcec] {
-        font-size: 12px
-    }
-
-    .mega-section[data-astro-cid-dmqpwcec] {
-        padding-left: 14px;
-        gap: 10px;
-        min-width: 150px
-    }
-
-    .mega-heading[data-astro-cid-dmqpwcec] {
-        font-size: 10px
-    }
-
-    .mega-section[data-astro-cid-dmqpwcec] a[data-astro-cid-dmqpwcec] {
-        font-size: 13px
-    }
-
-    /* Footer */
-    .footer-row[data-astro-cid-sz7xmlte] {
-        padding: 16px 14px;
-        flex-direction: column;
-        gap: 14px;
-        text-align: center
-    }
-
-    .footer-left[data-astro-cid-sz7xmlte],
-    .footer-right[data-astro-cid-sz7xmlte] {
-        width: 100%;
-        justify-content: center;
-        flex-direction: column;
-        gap: 12px
-    }
-
-    .footer-contact-label[data-astro-cid-sz7xmlte] {
-        font-size: 13px
-    }
-
-    .footer-contact-btn[data-astro-cid-sz7xmlte] {
-        font-size: 9px;
-        padding: 9px 18px;
-        width: 100%
-    }
-
-    .footer-socials[data-astro-cid-sz7xmlte] {
-        width: 100%;
-        justify-content: center;
-        gap: 10px
-    }
-
-    .footer-copy[data-astro-cid-sz7xmlte],
-    .footer-legal[data-astro-cid-sz7xmlte] {
-        font-size: 9px
-    }
-
-    .footer-divider[data-astro-cid-sz7xmlte] {
-        height: 12px
-    }
-
-    /* AI Center Styles */
-    .ai-center-box {
-        padding: 6px 6px 6px 14px
-    }
-
-    .ai-center-send {
-        width: 30px
-    }
-
-    .ai-center-input {
-        font-size: 12px
-    }
-
-    .ai-suggest-pill {
-        padding: 8px 14px;
-        font-size: 12px
-    }
-}
 
 nav[data-astro-cid-dmqpwcec] {
     display: flex;
@@ -1010,7 +740,7 @@ body.dark {
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--n08);
     position: relative;
-    z-index: 2
+    z-index: 2;
 }
 
 .oh .ghost-btn {
@@ -2423,95 +2153,7 @@ body.dark {
     display: inline-block
 }
 
-@media (max-width: 900px) {
-    .voice-inner {
-        grid-template-columns: 1fr;
-        height: auto
-    }
 
-    .voice-side {
-        border-left: none;
-        padding-left: 0;
-        border-top: 1px solid var(--n08);
-        padding-top: 32px
-    }
-}
-
-@media (max-width: 768px) {
-
-    .search-results-inner,
-    .convo {
-        padding-left: 16px;
-        padding-right: 16px
-    }
-
-    .ai-grid-welcome {
-        padding: 32px 16px 180px
-    }
-
-    .ai-cards {
-        grid-template-columns: 1fr
-    }
-
-    .search-input-pinned,
-    .ai-input-pinned {
-        padding: 16px 16px 20px
-    }
-
-    .spotlight-empty {
-        padding: 0 16px 80px
-    }
-
-    .oh {
-        padding: 0 16px;
-        gap: 10px
-    }
-
-    .oh-tab {
-        width: 100%;
-        justify-content: center
-    }
-}
-
-@media (max-width: 600px) {
-    .oh {
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 10px 16px 8px;
-        gap: 0;
-        background: #fff;
-        border-bottom: 1px solid var(--n09)
-    }
-
-    .oh .back-btn {
-        order: 1
-    }
-
-    .oh .ghost-btn {
-        order: 2;
-        margin-left: auto
-    }
-
-    .oh-tabs {
-        order: 3;
-        width: 100%;
-        justify-content: center;
-        position: static;
-        transform: none;
-        margin: 8px 0 4px
-    }
-
-    .oh-icon-btn,
-    .oh-divider {
-        display: none
-    }
-
-    .voice-inner {
-        padding: 24px 16px
-    }
-}
 
 .overlay-panel {
     background: #eef0f4 !important
@@ -3016,7 +2658,8 @@ body.dark {
     color: #0f1b32;
     margin: 0 0 24px;
     letter-spacing: -.025em;
-    text-align: center
+    text-align: center;
+    text-wrap: balance
 }
 
 .ai-mode-tabs {
@@ -3266,7 +2909,77 @@ body.dark {
     color: #2a60b899
 }
 
+@media (max-width: 1280px) {
+    .hero-inner[data-astro-cid-j7pv25f6] {
+        padding: 0 40px;
+        gap: 40px
+    }
+
+    .hero-card-wrap[data-astro-cid-j7pv25f6] {
+        width: clamp(320px, 34vw, 420px)
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-inner[data-astro-cid-j7pv25f6] {
+        padding: 0 32px;
+        gap: 28px
+    }
+
+    .hero-card-wrap[data-astro-cid-j7pv25f6] {
+        width: clamp(300px, 36vw, 380px)
+    }
+}
+
+@media (max-width: 900px) {
+    .voice-inner {
+        grid-template-columns: 1fr;
+        height: auto
+    }
+
+    .voice-side {
+        border-left: none;
+        padding-left: 0;
+        border-top: 1px solid var(--n08);
+        padding-top: 32px
+    }
+}
+
 @media (max-width: 768px) {
+
+    .search-results-inner,
+    .convo {
+        padding-left: 16px;
+        padding-right: 16px
+    }
+
+    .ai-grid-welcome {
+        padding: 32px 16px 180px
+    }
+
+    .ai-cards {
+        grid-template-columns: 1fr
+    }
+
+    .search-input-pinned,
+    .ai-input-pinned {
+        padding: 16px 16px 20px
+    }
+
+    .spotlight-empty {
+        padding: 0 16px 80px
+    }
+
+    .oh {
+        padding: 0 16px;
+        gap: 10px
+    }
+
+    .oh-tab {
+        width: 100%;
+        justify-content: center
+    }
+
     .ai-center-wrap {
         padding: 32px 20px 48px;
         overflow-x: hidden
@@ -3280,29 +2993,7 @@ body.dark {
         padding: 7px 14px;
         font-size: 12px
     }
-}
 
-@media (max-width: 420px) {
-    .ai-center-wrap {
-        padding: 24px 16px 40px
-    }
-
-    .ai-mode-tab {
-        padding: 6px 10px;
-        font-size: 11px
-    }
-
-    .ai-mode-tabs {
-        gap: 1px
-    }
-
-    .ai-center-send {
-        padding: 0 14px;
-        font-size: 13px
-    }
-}
-
-@media (max-width: 768px) {
     .ed-main {
         padding: 34px 24px 40px
     }
@@ -3334,7 +3025,92 @@ body.dark {
     }
 }
 
+@media (max-width: 768px) {
+    .hero[data-astro-cid-j7pv25f6] {
+        min-height: auto;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        align-items: flex-start;
+        overflow-x: hidden
+    }
+
+    .hero-inner[data-astro-cid-j7pv25f6] {
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 28px;
+        align-items: stretch
+    }
+
+    .hero-left[data-astro-cid-j7pv25f6] {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .hero-sub[data-astro-cid-j7pv25f6] {
+        max-width: 100%
+    }
+
+    .hero-card-wrap[data-astro-cid-j7pv25f6] {
+        width: 100%;
+        min-height: 420px;
+        flex: none;
+        align-self: stretch
+    }
+
+    .hero-card-img-wrap[data-astro-cid-j7pv25f6] {
+        min-height: 200px
+    }
+
+    .hero-accent-line[data-astro-cid-j7pv25f6] {
+        display: none !important
+    }
+
+    .hero-ctas[data-astro-cid-j7pv25f6] {
+        flex-wrap: wrap;
+        gap: 12px
+    }
+}
+
 @media (max-width: 600px) {
+    .oh {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 16px 8px;
+        gap: 0;
+        background: #fff;
+        padding-top: 35px;
+        border-bottom: 1px solid var(--n09)
+    }
+
+    .oh .back-btn {
+        order: 1
+    }
+
+    .oh .ghost-btn {
+        order: 2;
+        margin-left: auto
+    }
+
+    .oh-tabs {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        position: static;
+        transform: none;
+        margin: 8px 0 4px
+    }
+
+    .oh-icon-btn,
+    .oh-divider {
+        display: none
+    }
+
+    .voice-inner {
+        padding: 24px 16px
+    }
+
     .ed-main {
         padding: 24px 16px 30px
     }
@@ -3345,5 +3121,260 @@ body.dark {
 
     .ai-center-sub {
         font-size: 14px
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Hero Section */
+    .hero[data-astro-cid-j7pv25f6] {
+        min-height: auto;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        align-items: flex-start
+    }
+
+    .hero-inner[data-astro-cid-j7pv25f6] {
+        flex-direction: column;
+        padding: 0 14px;
+        gap: 18px;
+        align-items: stretch
+    }
+
+    .hero-left[data-astro-cid-j7pv25f6] {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .hero-headline[data-astro-cid-j7pv25f6] {
+        font-size: clamp(28px, 7vw, 40px);
+        line-height: 1.2;
+        margin-bottom: 12px
+    }
+
+    .hero-sub[data-astro-cid-j7pv25f6] {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-top: 16px;
+        max-width: 100%
+    }
+
+    .hero-ctas[data-astro-cid-j7pv25f6] {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        width: 100%
+    }
+
+    .btn-primary[data-astro-cid-j7pv25f6],
+    .btn-secondary[data-astro-cid-j7pv25f6] {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        padding: 12px 20px;
+        min-height: 44px
+    }
+
+    /* Card Section */
+    .hero-card-wrap[data-astro-cid-j7pv25f6] {
+        width: 100%;
+        min-height: 360px;
+        max-height: 480px;
+        flex: none;
+        align-self: stretch
+    }
+
+    .hero-card-img-wrap[data-astro-cid-j7pv25f6] {
+        min-height: 160px;
+        flex: 3
+    }
+
+    .hero-card-content[data-astro-cid-j7pv25f6] {
+        flex: 2
+    }
+
+    .hero-card-body[data-astro-cid-j7pv25f6] {
+        padding: 16px 14px 0;
+        gap: 8px
+    }
+
+    .hero-card-company[data-astro-cid-j7pv25f6] {
+        font-size: 16px;
+        margin-bottom: 8px
+    }
+
+    .hero-card-quote[data-astro-cid-j7pv25f6] {
+        font-size: 11px;
+        line-height: 1.6;
+        padding-left: 10px
+    }
+
+    .hero-card-quote[data-astro-cid-j7pv25f6]:before {
+        width: 1.5px
+    }
+
+    .hero-card-footer[data-astro-cid-j7pv25f6] {
+        padding: 12px 14px 14px
+    }
+
+    .hero-card-badge[data-astro-cid-j7pv25f6] {
+        font-size: 8px;
+        padding: 4px 10px;
+        bottom: 10px;
+        left: 12px
+    }
+
+    .carousel-arrow[data-astro-cid-j7pv25f6] {
+        width: 32px;
+        height: 32px;
+        top: 10px;
+        right: 10px;
+        font-size: 14px
+    }
+
+    .carousel-dot[data-astro-cid-j7pv25f6] {
+        width: 5px;
+        height: 5px
+    }
+
+    /* Navigation */
+    nav[data-astro-cid-dmqpwcec] {
+        padding: 0 14px;
+        height: 56px
+    }
+
+    .nav-mega-panel[data-astro-cid-dmqpwcec] {
+        padding: 24px 14px 28px;
+        gap: 24px
+    }
+
+    .nav-links[data-astro-cid-dmqpwcec] {
+        gap: 28px
+    }
+
+    .nav-links[data-astro-cid-dmqpwcec] a[data-astro-cid-dmqpwcec] {
+        font-size: 12px
+    }
+
+    .mega-section[data-astro-cid-dmqpwcec] {
+        padding-left: 14px;
+        gap: 10px;
+        min-width: 150px
+    }
+
+    .mega-heading[data-astro-cid-dmqpwcec] {
+        font-size: 10px
+    }
+
+    .mega-section[data-astro-cid-dmqpwcec] a[data-astro-cid-dmqpwcec] {
+        font-size: 13px
+    }
+
+    /* Footer */
+    .footer-row[data-astro-cid-sz7xmlte] {
+        padding: 16px 14px;
+        flex-direction: column;
+        gap: 14px;
+        text-align: center
+    }
+
+    .footer-left[data-astro-cid-sz7xmlte],
+    .footer-right[data-astro-cid-sz7xmlte] {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px
+    }
+
+    .footer-contact-label[data-astro-cid-sz7xmlte] {
+        font-size: 13px
+    }
+
+    .footer-contact-btn[data-astro-cid-sz7xmlte] {
+        font-size: 9px;
+        padding: 9px 18px;
+        width: 100%
+    }
+
+    .footer-socials[data-astro-cid-sz7xmlte] {
+        width: 100%;
+        justify-content: center;
+        gap: 10px
+    }
+
+    .footer-copy[data-astro-cid-sz7xmlte],
+    .footer-legal[data-astro-cid-sz7xmlte] {
+        font-size: 9px
+    }
+
+    .footer-divider[data-astro-cid-sz7xmlte] {
+        height: 12px
+    }
+
+    /* AI Center Styles */
+    .ai-center-box {
+        padding: 6px 6px 6px 14px
+    }
+
+    .ai-center-send {
+        height: 30px
+    }
+
+    .ai-center-input {
+        font-size: 12px
+    }
+
+    .ai-suggest-pill {
+        padding: 8px 14px;
+        font-size: 12px
+    }
+
+    .ed-msg.user .ed-msg-body {
+        padding: 6px 12px;
+        max-width: 85%;
+    }
+
+    .ed-inputbar-inner {
+        padding: 3px 3px 3px 8px;
+    }
+
+    .ai-mode-trigger-label {
+        display: none;
+    }
+
+    .ed-input-field {
+        font-size: 13px;
+        min-height: auto
+    }
+
+    .ai-mode-trigger {
+        width: 24px;
+        height: 24px;
+    }
+
+    .ed-inputbar-send {
+        width: 34px;
+        height: 34px;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .ai-center-wrap {
+        padding: 24px 16px 40px
+    }
+
+    .ai-mode-tab {
+        padding: 6px 10px;
+        font-size: 11px
+    }
+
+    .ai-mode-tabs {
+        gap: 1px
+    }
+
+    .ai-center-send {
+        padding: 0 14px;
+        font-size: 13px
     }
 }
